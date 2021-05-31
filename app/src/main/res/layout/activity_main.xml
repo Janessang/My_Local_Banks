@@ -8,26 +8,35 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textViewDBS"
+        android:id="@+id/bankDBS"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:hint="@string/dbs" />
+        android:text="@string/dbs"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
 
     <TextView
-        android:id="@+id/textViewOCBC"
+        android:id="@+id/bankOCBC"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:hint="@string/ocbc" />
+        android:text="@string/ocbc"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
 
     <TextView
-        android:id="@+id/textViewUOB"
+        android:id="@+id/bankUOB"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:hint="@string/uob" />
+        android:text="@string/uob"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
 </LinearLayout>
