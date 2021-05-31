@@ -7,7 +7,7 @@
     <item
         android:id="@+id/callSelection"
         android:orderInCategory="103"
-        android:title="Contact the bank" />
+        android:title="Contact the Bank" />
 
     <item
         android:id="@+id/toggle"
