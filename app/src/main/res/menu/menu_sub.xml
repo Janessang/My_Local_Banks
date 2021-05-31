@@ -8,4 +8,9 @@
         android:id="@+id/callSelection"
         android:orderInCategory="103"
         android:title="Contact the bank" />
+
+    <item
+        android:id="@+id/toggle"
+        android:orderInCategory="104"
+        android:title="Toggle Favourite" />
 </menu>
